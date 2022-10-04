@@ -1,0 +1,23 @@
+{
+  "name": "spa_universe",
+  "version": "1.0.0",
+  "description": "- Let's go!",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasvir/spa_universe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasvir/spa_universe/issues"
+  },
+  "homepage": "https://github.com/lucasvir/spa_universe#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
