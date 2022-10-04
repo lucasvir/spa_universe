@@ -38,7 +38,7 @@ nav a {
   align-self: center;
 }
 
-a {
+nav a {
   font-size: 2.1rem;
   line-height: 2.2rem;
   color: var(--tx-nav-uncheked);
@@ -47,7 +47,7 @@ a {
   transition: 0.3s;
 }
 
-a:hover {
+nav a:hover {
   font-size: 2.15rem;
   color: var(--tx-nav-checked);
 }
