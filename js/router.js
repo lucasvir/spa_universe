@@ -23,5 +23,29 @@ export class Router {
       .then((html) => {
         document.querySelector("#container").innerHTML = html;
       });
+
+    const itsHome = route == "/pages/home.html";
+    const itsUniverso = route == "/pages/universo.html";
+    const itsExploracao = route == "/pages/exploracao.html";
+    const body = document.body;
+
+    switch (itsHome) {
+      case itsUniverso:
+        body.classList.remove("bg-home");
+        body.classList.remove("bg-exploracao");
+        body.classList.add("bg-universo");
+        break;
+      case itsExploracao:
+        body.classList.remove("bg-home");
+        body.classList.remove("bg-universo");
+        body.classList.add("bg-exploracao");
+        break;
+
+      default:
+        body.classList.remove("bg-exploracao");
+        body.classList.remove("bg-universo");
+        body.classList.add("bg-home");
+        break;
+    }
   }
 }
